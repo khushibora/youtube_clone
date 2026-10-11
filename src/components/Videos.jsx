@@ -4,7 +4,7 @@ import { VideoCard, ChannelCard} from './';
 
 
 const Videos = ({videos}) => {
-console.log('video', videos)
+
   return (
     <Stack direction="row" flexWrap="wrap" justifyContent="start" gap={2}> 
     {videos.map((item, idx) => (
